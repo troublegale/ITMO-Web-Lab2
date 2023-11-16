@@ -132,9 +132,19 @@ function drawPoint(x, y, result) {
     ctx.stroke();
     ctx.closePath();
 }
+document.addEventListener("DOMContentLoaded", () => {
+    if (!localStorage.getItem('rValue')) {
+        localStorage.setItem('rValue', "R")
+        rValue = "R"
+    } else {
+        rValue = localStorage.getItem('rValue')
+    }
+    redrawGraph(rValue)
+    redrawPoint()
 
+});
 function redrawPoint(){
-    const table = document.getElementById("result");        //id might be changed
+    const table = document.getElementById("result");
     if (table) {
         for (let item of table.rows) {
             const x = parseFloat(item.children[0].innerText.trim());

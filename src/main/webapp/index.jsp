@@ -103,8 +103,38 @@
             </form>
         </div>
         <div>
-            <table>
+            <table class="frontTables">
+                <thead>
+                <tr>
+                    <th>X</th>
+                    <th>Y</th>
+                    <th>R</th>
+                    <th>Result</th>
 
+                </tr>
+                </thead>
+                <tbody id="result">
+                <% List<TestCase> list = (List<TestCase>) request.getSession().getAttribute("list_of_cases");
+                    if (list != null) {
+                %>
+                <% for (TestCase point : list) { %>
+                <tr>
+                    <td>
+                        <%= point.getX() %>
+                    </td>
+                    <td>
+                        <%= point.getY() %>
+                    </td>
+                    <td>
+                        <%= point.getR() %>
+                    </td>
+                    <td>
+                        <%= point.isInArea() ? "Hit" : "Miss" %>
+                    </td>
+                </tr>
+                <% }%>
+                <%}%>
+                </tbody>
             </table>
         </div>
     </div>
@@ -116,6 +146,7 @@
 <script src="js/validate_form.js"></script>
 <script src="js/send_parameters.js"></script>
 <script src="js/graph.js"></script>
+<script src="js/table.js"></script>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 
 </html>

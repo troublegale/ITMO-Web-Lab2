@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e85daa97-369a-49fe-9fbc-1674a80d9600" name="Changes" comment="rolled back request/response logic">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/send_parameters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/AreaCheckerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/AreaCheckerFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/AreaCheckerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/AreaCheckerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/ControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/graph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/send_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/validate_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/validate_form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/result.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="e85daa97-369a-49fe-9fbc-1674a80d9600" name="Changes" comment="jopa v govne" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +148,7 @@
       <workItem from="1700030187866" duration="7351000" />
       <workItem from="1700056257826" duration="9224000" />
       <workItem from="1700069082969" duration="15252000" />
-      <workItem from="1700124030799" duration="10322000" />
+      <workItem from="1700124030799" duration="11212000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -186,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700124374873</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jopa v govne">
+      <option name="closed" value="true" />
+      <created>1700139907992</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700139907992</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +192,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="something is definitely going on" />
     <MESSAGE value="rolled back request/response logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="rolled back request/response logic" />
+    <MESSAGE value="jopa v govne" />
+    <option name="LAST_COMMIT_MESSAGE" value="jopa v govne" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

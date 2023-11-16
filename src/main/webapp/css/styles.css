@@ -32,7 +32,7 @@ input:invalid {
     background-color: rgba(255, 0, 0, 0.3);
 }
 
-.calc-button {
+.calc-button, .return-button {
     border-radius: 3px;
     border: 2px solid black;
     padding: 10px 15px;
@@ -46,11 +46,11 @@ input:invalid {
     margin-top: 3px;
 }
 
-.calc-button:hover {
+.calc-button:hover, .return-button:hover {
     background-color: rgba(47, 109, 249, 0.7);
 }
 
-.calc-button:active {
+.calc-button:active, .return-button:hover {
     background-color: rgba(47, 109, 249, 1);
 }
 
@@ -114,46 +114,56 @@ caption {
     font-weight: lighter;
 }
 
-/*.scroll {*/
-/*    height: 550px;*/
-/*    overflow-x: hidden;*/
-/*    overflow-y: auto;*/
-/*    display: block*/
-/*}*/
+table {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    width: 97%;
+    border-collapse: collapse;
+    border: 3px solid black;
+    border-radius: 3px;
+}
 
-/*.frontTables {*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    border-radius: 3%;*/
-/*    border-collapse: collapse;*/
-/*    min-width: 400px;*/
-/*}*/
+caption {
+    color: white;
+    text-shadow: 1px 1px rgb(10, 47, 134);
+    background-color: rgba(47, 109, 249, 0.5);
+    padding: 5px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    font-weight: bold;
+}
 
-/*.frontTables thead, .frontTables tbody {*/
-/*    width: 100%;*/
-/*}*/
+thead {
+    color: white;
+    text-shadow: 1px 1px rgb(10, 47, 134);
+    background-color: rgba(47, 109, 249, 0.5);
+}
 
-/*.frontTables th, .frontTables td {*/
-/*    padding: 12px 15px;*/
-/*    border: 1px solid black*/
-/*}*/
+td {
+    font-weight: normal;
+    padding: 4px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
 
-/*.frontTables tbody tr {*/
-/*    border-bottom: 1px solid #dddddd;*/
-/*}*/
+thead td {
+    border-width: 3px;
+    border-bottom: 2px solid black;
+}
 
-/*table.body {*/
-/*    padding: 20px;*/
-/*    font-size: 20px;*/
-/*    color: black;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*}*/
+.result-head {
+    font-weight: bold;
+}
 
-/*table.header {*/
-/*    font-size: 20px;*/
-/*    color: azure;*/
-/*    width: 100%;*/
-/*    background-color: #6c757d;*/
-/*    height: 40px;*/
-/*}*/
+.return-button {
+    text-decoration: none;
+}
+
+.return-button-container {
+    margin-top: 25px;
+}

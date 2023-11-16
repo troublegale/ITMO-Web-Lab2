@@ -22,7 +22,7 @@ public class TestCase {
         return y;
     }
 
-    public float getR() {
+    public int getR() {
         return r;
     }
 

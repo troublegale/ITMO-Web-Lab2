@@ -23,20 +23,21 @@
         <div class="header-text">22232</div>
     </div>
 </header>
-
-<div class="result_width">
-    <div class="scroll">
-        <table class="frontTables">
+<div class="return-button-container">
+    <a class="return-button" href="${pageContext.request.contextPath}/controller">Back to the graph page</a>
+</div>
+<div>
+    <div>
+        <table>
             <thead>
             <tr>
                 <th>X</th>
                 <th>Y</th>
                 <th>R</th>
                 <th>Result</th>
-
             </tr>
             </thead>
-            <% List<TestCase> list = (List<TestCase>) request.getSession().getAttribute("listOfCases");
+            <% List<TestCase> list = (List<TestCase>) request.getSession().getAttribute("list_of_cases");
                 if (list != null) {
             %>
             <tbody id="result">
@@ -52,18 +53,16 @@
                     <%= point.getR() %>
                 </td>
                 <td>
-                    <%= point.isInArea() %>
+                    <%= point.isInArea() ? "Hit" : "Miss" %>
                 </td>
             </tr>
-            <%  }%>
+            <% }%>
             </tbody>
             <%}%>
         </table>
     </div>
 </div>
-<%--<div class="result_width center" >--%>
-<%--    <a href="${pageContext.request.contextPath}/index.jsp" class="back_href">Back to the graph</a>--%>
-<%--</div>--%>
+
 </body>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 </html>

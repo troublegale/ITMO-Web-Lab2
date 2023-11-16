@@ -16,6 +16,7 @@ checkboxes.forEach(function (checkbox) {
         rValue = parseInt(this.value)
         localStorage.setItem("rValue", rValue.toString())
         redrawGraph(rValue)
+        redrawPoint()
     });
 });
 xInput.addEventListener("input", () => {
