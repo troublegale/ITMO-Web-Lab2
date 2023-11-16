@@ -114,46 +114,46 @@ caption {
     font-weight: lighter;
 }
 
-.scroll {
-    height: 550px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    display: block
-}
+/*.scroll {*/
+/*    height: 550px;*/
+/*    overflow-x: hidden;*/
+/*    overflow-y: auto;*/
+/*    display: block*/
+/*}*/
 
-.frontTables {
-    width: 100%;
-    height: 100%;
-    border-radius: 3%;
-    border-collapse: collapse;
-    min-width: 400px;
-}
+/*.frontTables {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    border-radius: 3%;*/
+/*    border-collapse: collapse;*/
+/*    min-width: 400px;*/
+/*}*/
 
-.frontTables thead, .frontTables tbody {
-    width: 100%;
-}
+/*.frontTables thead, .frontTables tbody {*/
+/*    width: 100%;*/
+/*}*/
 
-.frontTables th, .frontTables td {
-    padding: 12px 15px;
-    border: 1px solid black
-}
+/*.frontTables th, .frontTables td {*/
+/*    padding: 12px 15px;*/
+/*    border: 1px solid black*/
+/*}*/
 
-.frontTables tbody tr {
-    border-bottom: 1px solid #dddddd;
-}
+/*.frontTables tbody tr {*/
+/*    border-bottom: 1px solid #dddddd;*/
+/*}*/
 
-table.body {
-    padding: 20px;
-    font-size: 20px;
-    color: black;
-    width: 100%;
-    height: 100%;
-}
+/*table.body {*/
+/*    padding: 20px;*/
+/*    font-size: 20px;*/
+/*    color: black;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
 
-table.header {
-    font-size: 20px;
-    color: azure;
-    width: 100%;
-    background-color: #6c757d;
-    height: 40px;
-}
+/*table.header {*/
+/*    font-size: 20px;*/
+/*    color: azure;*/
+/*    width: 100%;*/
+/*    background-color: #6c757d;*/
+/*    height: 40px;*/
+/*}*/

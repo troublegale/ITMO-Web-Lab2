@@ -24,47 +24,10 @@
     </div>
 </header>
 
-<div class="result_width">
-    <div class="scroll">
-        <table class="frontTables">
-            <thead>
-            <tr>
-                <th>X</th>
-                <th>Y</th>
-                <th>R</th>
-                <th>Results</th>
 
-            </tr>
-            </thead>
-            <% List<TestCase> list = (List<TestCase>) request.getSession().getAttribute("array");
-                if (list != null) {
-            %>
-            <tbody id="result">
-            <% for (TestCase TestCase : list) { %>
-            <tr>
-                <td>
-                    <%= TestCase.getX() %>
-                </td>
-                <td>
-                    <%= TestCase.getY() %>
-                </td>
-                <td>
-                    <%= TestCase.getR() %>
-                </td>
-                <td>
-                    <%= TestCase.isInArea() ? "Hit" : "Miss" %>
-                </td>
-            </tr>
-            <% } %>
-            </tbody>
-
-            <%}%>
-        </table>
-    </div>
-</div>
-<div class="result_width center" >
-    <a href="${pageContext.request.contextPath}/index.jsp" class="back_href">Back to the graph</a>
-</div>
+<%--<div class="result_width center" >--%>
+<%--    <a href="${pageContext.request.contextPath}/index.jsp" class="back_href">Back to the graph</a>--%>
+<%--</div>--%>
 </body>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 </html>

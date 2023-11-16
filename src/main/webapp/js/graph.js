@@ -135,7 +135,7 @@ function drawPoint(x, y, result) {
 }
 
 function redrawPoint(){
-    const table = document.getElementById("result");
+    const table = document.getElementById("result");        //id might be changed
     if (table) {
         for (let item of table.rows) {
             const x = parseFloat(item.children[0].innerText.trim());

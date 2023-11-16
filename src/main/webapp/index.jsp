@@ -102,43 +102,6 @@
         </form>
     </div>
 
-    <div>
-        <div class="scroll">
-            <table class="frontTables" >
-                <thead>
-                <tr >
-                    <th>X</th>
-                    <th>Y</th>
-                    <th>R</th>
-                    <th>Results</th>
-                </tr>
-                </thead>
-                <tbody id="result">
-                <% List<TestCase> list = (List<TestCase>) request.getSession().getAttribute("array");
-                    if (list != null) {
-                %>
-
-                <% for (TestCase point : list) { %>
-                <tr>
-                    <td>
-                        <%= point.getX() %>
-                    </td>
-                    <td>
-                        <%= point.getY() %>
-                    </td>
-                    <td>
-                        <%= point.getR() %>
-                    </td>
-                    <td>
-                        <%= point.isInArea() %>
-                    </td>
-                </tr>
-                <%  }%>
-                <%}%> </tbody>
-            </table>
-        </div>
-    </div>
-
 </div>
 
 </body>

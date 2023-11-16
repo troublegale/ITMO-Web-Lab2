@@ -13,13 +13,7 @@ public class AreaCheckerFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws ServletException, IOException {
-        HttpSession session = ((HttpServletRequest) request).getSession(true);
-        var filter = session.getAttribute("filter");
-        if (filter != null && (boolean) filter) {
-            session.setAttribute("filter", false);
-            chain.doFilter(request, response);
-        }
-        else request.getServletContext().getRequestDispatcher("/result.jsp").forward(request, response);
+
     }
 
 }
