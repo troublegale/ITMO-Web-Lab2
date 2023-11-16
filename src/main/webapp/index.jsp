@@ -35,71 +35,78 @@
     </div>
 
     <div>
-        <form method="get" class="variables">
+        <div>
+            <form method="get" class="variables">
 
-            <div>
-                <label>
-                    <span>X variable:</span>
-                    <input class="x-text-input" type="text" id="x-input" name="x-input"
-                           placeholder="A decimal number in (-5; 5)" autocomplete="off">
-                    <span id="input-message" style="display: none" class="error-message"></span>
-                </label>
-            </div>
+                <div>
+                    <label>
+                        <span>X variable:</span>
+                        <input class="x-text-input" type="text" id="x-input" name="x-input"
+                               placeholder="A decimal number in (-5; 5)" autocomplete="off">
+                        <span id="input-message" style="display: none" class="error-message"></span>
+                    </label>
+                </div>
 
-            <br>
+                <br>
 
-            <div>
-                <label>
-                    <span>Y variable:</span>
-                    <select>
-                        <option value="-4">-4</option>
-                        <option value="-3">-3</option>
-                        <option value="-2">-2</option>
-                        <option value="-1">-1</option>
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                    </select>
-                </label>
-            </div>
+                <div>
+                    <label>
+                        <span>Y variable:</span>
+                        <select id="y-select">
+                            <option value="-4">-4</option>
+                            <option value="-3">-3</option>
+                            <option value="-2">-2</option>
+                            <option value="-1">-1</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </label>
+                </div>
 
-            <br>
+                <br>
 
-            <div>
-                <span>R variable:</span>
-                <label>
-                    1
-                    <input type="checkbox" class="r_checkbox" name="rbox" value="1">
-                </label>
-                <label>
-                    2
-                    <input type="checkbox" class="r_checkbox" name="rbox" value="2">
-                </label>
-                <label>
-                    3
-                    <input type="checkbox" class="r_checkbox" name="rbox" value="3">
-                </label>
-                <label>
-                    4
-                    <input type="checkbox" class="r_checkbox" name="rbox" value="4">
-                </label>
-                <label>
-                    5
-                    <input type="checkbox" class="r_checkbox" name="rbox" value="5">
-                </label>
-                <span id="r-message" style="display: none"
-                      class="error-message">⬅ Please, choose exactly one option.</span>
-            </div>
+                <div>
+                    <span>R variable:</span>
+                    <label>
+                        1
+                        <input type="checkbox" class="r_checkbox" name="rbox" value="1">
+                    </label>
+                    <label>
+                        2
+                        <input type="checkbox" class="r_checkbox" name="rbox" value="2">
+                    </label>
+                    <label>
+                        3
+                        <input type="checkbox" class="r_checkbox" name="rbox" value="3">
+                    </label>
+                    <label>
+                        4
+                        <input type="checkbox" class="r_checkbox" name="rbox" value="4">
+                    </label>
+                    <label>
+                        5
+                        <input type="checkbox" class="r_checkbox" name="rbox" value="5">
+                    </label>
+                    <span id="r-message" style="display: none"
+                          class="error-message">⬅ Please, choose exactly one option.</span>
+                </div>
 
-            <br>
+                <br>
 
-            <div>
-                <button id="calc-button" class="calc-button" type="button">Calculate</button>
-            </div>
+                <div>
+                    <button id="calc-button" class="calc-button" type="button">Calculate</button>
+                </div>
 
-        </form>
+            </form>
+        </div>
+        <div>
+            <table>
+
+            </table>
+        </div>
     </div>
 
 </div>
@@ -107,7 +114,7 @@
 </body>
 
 <script src="js/validate_form.js"></script>
-<script src="js/send_form.js"></script>
+<script src="js/send_parameters.js"></script>
 <script src="js/graph.js"></script>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 

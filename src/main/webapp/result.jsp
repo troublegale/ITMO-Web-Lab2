@@ -24,7 +24,43 @@
     </div>
 </header>
 
+<div class="result_width">
+    <div class="scroll">
+        <table class="frontTables">
+            <thead>
+            <tr>
+                <th>X</th>
+                <th>Y</th>
+                <th>R</th>
+                <th>Result</th>
 
+            </tr>
+            </thead>
+            <% List<TestCase> list = (List<TestCase>) request.getSession().getAttribute("listOfCases");
+                if (list != null) {
+            %>
+            <tbody id="result">
+            <% for (TestCase point : list) { %>
+            <tr>
+                <td>
+                    <%= point.getX() %>
+                </td>
+                <td>
+                    <%= point.getY() %>
+                </td>
+                <td>
+                    <%= point.getR() %>
+                </td>
+                <td>
+                    <%= point.isInArea() %>
+                </td>
+            </tr>
+            <%  }%>
+            </tbody>
+            <%}%>
+        </table>
+    </div>
+</div>
 <%--<div class="result_width center" >--%>
 <%--    <a href="${pageContext.request.contextPath}/index.jsp" class="back_href">Back to the graph</a>--%>
 <%--</div>--%>

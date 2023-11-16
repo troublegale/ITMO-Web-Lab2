@@ -24,8 +24,10 @@ xInput.addEventListener("input", () => {
 calcButton.onclick = handleCalculateButtonPress
 
 function handleCalculateButtonPress() {
-    if (checkInput() & checkRBoxes()) {     //single & because we need to always check both
-        sendParametersThroughForm()                    //send_form.js
+    if (checkInput() && checkRBoxes()) {
+        let x = parseFloat(xInput.value)
+        let y = parseFloat(document.getElementById("y-select").value)
+        sendParametersWithForm(x, y, rValue)
     }
 }
 

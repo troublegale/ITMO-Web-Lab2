@@ -25,8 +25,7 @@ document.querySelector('#graph').onmousemove = function (event) {
 }
 document.querySelector('#graph').onclick = function () {
     if (checkRBoxes()) {
-        //sendWithoutRedirect(xCoordinate, yCoordinate, rValue)
-        drawPoint(xCoordinate, yCoordinate, true)
+        sendParametersWithGraph(xCoordinate, yCoordinate, rValue)
     }
 }
 

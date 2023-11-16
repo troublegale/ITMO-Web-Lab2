@@ -45,7 +45,7 @@ public class TestCase {
     }
 
     private boolean checkIsInTriangle() {
-        return x >= (2 * x - r);
+        return y >= (2 * x - r);
     }
 
     private boolean checkIsInQuarterCircle() {

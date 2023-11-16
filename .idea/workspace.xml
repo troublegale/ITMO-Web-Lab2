@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e85daa97-369a-49fe-9fbc-1674a80d9600" name="Changes" comment="something is definitely going on" />
+    <list default="true" id="e85daa97-369a-49fe-9fbc-1674a80d9600" name="Changes" comment="rolled back request/response logic">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/send_parameters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/AreaCheckerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/AreaCheckerFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/AreaCheckerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/AreaCheckerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/ControllerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/itmo/web/lab2/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/graph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/send_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/validate_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/validate_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/result.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +31,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -37,25 +49,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;K:/Projects/Web Labs/Lab1&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "K:/Projects/Web Labs/Lab1",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="K:\Projects\Web Labs\Lab2\src\main\webapp" />
@@ -148,6 +160,7 @@
       <workItem from="1700030187866" duration="7351000" />
       <workItem from="1700056257826" duration="9224000" />
       <workItem from="1700069082969" duration="15252000" />
+      <workItem from="1700124030799" duration="10322000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -165,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700095208520</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rolled back request/response logic">
+      <option name="closed" value="true" />
+      <created>1700124374873</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700124374873</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +195,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="something is definitely going on" />
-    <option name="LAST_COMMIT_MESSAGE" value="something is definitely going on" />
+    <MESSAGE value="rolled back request/response logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="rolled back request/response logic" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/itmo/web/lab2/AreaCheckerServlet.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
