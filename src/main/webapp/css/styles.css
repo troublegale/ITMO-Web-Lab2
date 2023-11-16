@@ -1,0 +1,159 @@
+body {
+    font: 14pt Bahnschrift;
+    background-color: white;
+}
+
+.header {
+    background-color: rgba(47, 109, 249, 0.5);
+    border: 3px solid black;
+    border-radius: 3px;
+    display: flex;
+    font-size: 28pt;
+    justify-content: start;
+    font-weight: bold;
+    padding: 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.header-text {
+    margin-right: 50px;
+    color: white;
+    text-shadow: 2px 2px rgb(10, 47, 134);
+}
+
+.variables {
+    margin-left: 15px;
+    padding: 5px 0;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+input:invalid {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.calc-button {
+    border-radius: 3px;
+    border: 2px solid black;
+    padding: 10px 15px;
+    background-color: rgba(47, 109, 249, 0.5);
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(10, 47, 134);
+    cursor: pointer;
+    font-size: 12pt;
+    transition: background-color 150ms;
+    margin-top: 3px;
+}
+
+.calc-button:hover {
+    background-color: rgba(47, 109, 249, 0.7);
+}
+
+.calc-button:active {
+    background-color: rgba(47, 109, 249, 1);
+}
+
+input {
+    margin-left: 0;
+    margin-right: 10px
+}
+
+span {
+    margin-right: 10px
+}
+
+.x-text-input {
+    border-radius: 3px;
+    border-color: rgb(10, 47, 134);
+    border-width: 2px;
+    width: 175px;
+    padding: 4px;
+    text-align: center;
+}
+
+.error-message {
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 2px solid rgb(10, 47, 134);
+    background-color: rgba(47, 109, 249, 0.5);
+    text-shadow: 1px 1px rgb(10, 47, 134);
+    padding: 5px 10px;
+}
+
+caption {
+    color: white;
+    text-shadow: 1px 1px rgb(10, 47, 134);
+    background-color: rgba(47, 109, 249, 0.5);
+    padding: 5px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    font-weight: bold;
+}
+
+.result-head {
+    font-weight: bold;
+}
+
+.graph-container {
+    width: 30vw;
+    height: 30vw;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+#graph {
+    width: 100%;
+}
+
+.dynamic-coordinate {
+    margin-right: 40px;
+    font-weight: lighter;
+}
+
+.scroll {
+    height: 550px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block
+}
+
+.frontTables {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    border-collapse: collapse;
+    min-width: 400px;
+}
+
+.frontTables thead, .frontTables tbody {
+    width: 100%;
+}
+
+.frontTables th, .frontTables td {
+    padding: 12px 15px;
+    border: 1px solid black
+}
+
+.frontTables tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table.body {
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+table.header {
+    font-size: 20px;
+    color: azure;
+    width: 100%;
+    background-color: #6c757d;
+    height: 40px;
+}
