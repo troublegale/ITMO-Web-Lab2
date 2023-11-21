@@ -151,7 +151,7 @@ function redrawPoint(){
             const y = parseFloat(item.children[1].innerText.trim());
             const r = parseFloat(item.children[2].innerText.trim());
             if (isNaN(x) || isNaN(y) || isNaN(r)) continue;
-            drawPoint(x, y, item.children[3].innerText.trim() === "true");
+            drawPoint(x, y, item.children[3].innerText.trim() === "Hit");
         }
     }
 }

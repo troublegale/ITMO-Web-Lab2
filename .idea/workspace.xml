@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e85daa97-369a-49fe-9fbc-1674a80d9600" name="Changes" comment="jopa v govne" />
+    <list default="true" id="e85daa97-369a-49fe-9fbc-1674a80d9600" name="Changes" comment="all done i guess">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/graph.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,21 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,14 +63,14 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "K:/Projects/Web Labs/Lab1",
+    "last_opened_file_path": "K:/Projects/Web Labs/Lab2",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
@@ -64,7 +83,29 @@
       <recent name="K:\Projects\Web Labs\Lab2\src\main\webapp\js" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JBoss/WildFly Server.JBoss/WildFly 30.0.0.Final">
+    <configuration name="Lab2 [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="war" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="JBoss/WildFly 30.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 30.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -136,6 +177,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.Lab2 [war]" />
+      <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 30.0.0.Final" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Lab2 [war]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -148,7 +198,10 @@
       <workItem from="1700030187866" duration="7351000" />
       <workItem from="1700056257826" duration="9224000" />
       <workItem from="1700069082969" duration="15252000" />
-      <workItem from="1700124030799" duration="11212000" />
+      <workItem from="1700124030799" duration="22346000" />
+      <workItem from="1700168126851" duration="142000" />
+      <workItem from="1700232382692" duration="31000" />
+      <workItem from="1700575002853" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -182,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700139907992</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="all done i guess">
+      <option name="closed" value="true" />
+      <created>1700145567842</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700145567842</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,17 +254,7 @@
     <MESSAGE value="something is definitely going on" />
     <MESSAGE value="rolled back request/response logic" />
     <MESSAGE value="jopa v govne" />
-    <option name="LAST_COMMIT_MESSAGE" value="jopa v govne" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/itmo/web/lab2/AreaCheckerServlet.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="all done i guess" />
+    <option name="LAST_COMMIT_MESSAGE" value="all done i guess" />
   </component>
 </project>
